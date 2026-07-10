@@ -86,9 +86,6 @@ Os resultados oficiais deste projeto estão em `outputs/relatorio_comparativo.tx
 
 **Melhor abordagem neste experimento:** Word2Vec + Regressão Logística
 
-> **Nota:** o modelo LSTM pode variar levemente entre execuções por causa da aleatoriedade no treinamento neural. O Word2Vec + Regressão Logística permanece estável (~92%). Para entrega, use os arquivos em `outputs/` da execução escolhida e evite rodar `main.py` novamente sem necessidade.
-## Dependências principais
-
 - `pandas`, `numpy`, `scikit-learn`
 - `nltk` (tokenização e stopwords)
 - `gensim` (Word2Vec)
